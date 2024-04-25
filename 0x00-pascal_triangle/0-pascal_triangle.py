@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def pascal_triangle(n):
     """
     Function to calculate Pasacals Triangle.
@@ -9,7 +11,7 @@ def pascal_triangle(n):
     """
     if n <= 0:
         return []
-        
+
     triangle = [[1], [1, 1]]
 
     for i in range(1, n - 1):
