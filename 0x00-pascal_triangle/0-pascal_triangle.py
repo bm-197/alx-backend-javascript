@@ -7,6 +7,9 @@ def pascal_triangle(n):
     Return:
         List(List(int)): The triangle
     """
+    if n <= 0:
+        return []
+        
     triangle = [[1], [1, 1]]
 
     for i in range(1, n - 1):
