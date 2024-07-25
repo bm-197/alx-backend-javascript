@@ -1,16 +1,16 @@
-const http = require("http");
+const http = require('http');
 
 const PORT = 1245;
-const HOST = "localhost";
+const HOST = 'localhost';
 const app = http.createServer();
 
-app.on("request", (_, res) => {
-  const resText = "Hello Holberton School!";
+app.on('request', (_, res) => {
+  const responseText = 'Hello Holberton School!';
 
-  res.setHeader("Content-Type", "text/plain");
-  res.setHeader("Content-Length", response.length);
-  res.statusCode == 200;
-  res.write(Buffer.from(resText));
+  res.setHeader('Content-Type', 'text/plain');
+  res.setHeader('Content-Length', responseText.length);
+  res.statusCode = 200;
+  res.write(Buffer.from(responseText));
 });
 
 app.listen(PORT, HOST, () => {
