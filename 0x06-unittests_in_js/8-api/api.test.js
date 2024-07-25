@@ -2,7 +2,7 @@ const { expect } = require("chai");
 const app = require("./api");
 const request = require('request');
 
-describe("Return the index page", () => {
+describe("Index page", () => {
   const API_URL = "http://localhost:7865";
 
   it("GET / returns correct response", (done) => {
