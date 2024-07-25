@@ -12,7 +12,7 @@ describe("sendPaymentRequestToAPI", () => {
   });
 
   afterEach(() => {
-    spy.log.restHistory();
+    spy.log.resetHistory();
   });
 
   it('sendPaymentRequestToApi(100, 20) logs "The total is: 120" to the console', () => {
