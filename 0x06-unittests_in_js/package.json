@@ -1,0 +1,19 @@
+{
+  "name": "0x06-unittests_in_js",
+  "version": "1.0.0",
+  "description": "0x06-unittests_in_js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^11.0.0",
+    "lru-cache": "^11.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.0"
+  }
+}
