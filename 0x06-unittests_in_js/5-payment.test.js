@@ -23,7 +23,7 @@ describe("sendPaymentRequestToAPI", () => {
 
   it('sendPaymentRequestToApi(10, 10) logs "The total is: 20" to the console', () => {
     sendPaymentRequestToAPI(10, 10);
-    expect(spy.log.calledwith("The total is: 20")).to.be.true;
+    expect(spy.log.calledWith("The total is: 20")).to.be.true;
     expect(spy.log.calledOnce).to.be.true;
   });
 });
